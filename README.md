@@ -3,11 +3,11 @@ Bot para o Telegram que classifica imagens de acordo com as classes definidas.
 ## Descrição
 Foram definidas 2 classes (Árvores, Carros). Para cada classe coletei pelos menos 400 fotos utilizando o meu celular. 
 
-Considerando os modelos pré-treinados Distilbert e Bert em https://huggingface.co/models?pipeline_tag=text-classification&sort=trending, fiz os splits de treino, teste e validação e realizei o treinamento de cada modelo. O resultado final de classificação foi reportado utilizando o https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html.
+Considerando os modelos pré-treinados em https://pytorch.org/vision/stable/models.html, fiz os splits de treino, teste e validação e realizei o treinamento de cada modelo. O resultado final de classificação foi reportado utilizando o https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html.
 
-Com o melhor modelo, fiz o Bot do telegram para que ele reconheça os produtos dados pelos usuários.
+Com o melhor modelo, fiz o Bot do telegram para que ele reconheça imagens dadas pelo usuário.
 ## Conteúdo
-(1) o conjunto de dados
+(1) o conjunto de dados (fotos)
 
 (2) o código para o colab para treinamento dos modelos 
 
