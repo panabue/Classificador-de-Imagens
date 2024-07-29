@@ -7,9 +7,8 @@ Considerando os modelos pré-treinados em https://pytorch.org/vision/stable/mode
 
 Com o melhor modelo, fiz o Bot do telegram para que ele reconheça imagens dadas pelo usuário.
 ## Conteúdo
-(1) o conjunto de dados (fotos)
 
-(2) o código para o colab para treinamento dos modelos 
+(1) o código para o colab para treinamento dos modelos 
 
-(3) código para conectar o modelo no bot do telegram 
+(2) código para conectar o modelo no bot do telegram 
 ## Como usar
