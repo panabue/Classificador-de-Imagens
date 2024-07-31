@@ -17,9 +17,9 @@ Caso queira treinar os modelos novamente, baixe o dataset https://drive.google.c
 
 Ao fim da execução, dois arquivos contendo os modelos treinados serão criados no seu Drive. Agora execute o Bot-Classificador.ipynb no colab. 
 
-Escolha qual dos modelos você deseja usar no Bot, alterando a variável save_path no primeiro bloco de código.
+Escolha qual dos modelos você deseja usar no Bot, alterando a variável caminho_do_modelo no primeiro bloco de código.
 
-Exemplo: save_path = '/content/drive/My Drive/modelo_treinadoDistilbert' -> utiliza o modelo Distilbert no Bot.
+Exemplo: caminho_do_modelo = '/content/drive/My Drive/modelo_treinadoDistilbert' -> utiliza o modelo Distilbert no Bot.
 
 O bloco da função Main deve permanecer em execução para que o Bot possa funcionar.  Dentro do arquivo podemos encontrar o link do Bot no Telegram, basta clicar nele e iniciar a conversa. 
 
