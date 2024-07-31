@@ -1,5 +1,5 @@
 # Classificador-de-Imagens
-Bot para o Telegram que classifica imagens de acordo com as classes definidas.
+Bot simples para o Telegram que reconhece e classifica fotos de Árvores e Carros.
 ## Descrição
 Foram definidas 2 classes (Árvores, Carros). Para cada classe coletei pelos menos 400 fotos utilizando o meu celular. 
 
@@ -13,9 +13,9 @@ Com o melhor modelo, fiz o Bot do telegram para que ele reconheça imagens dadas
 (2) código para conectar o modelo no bot do telegram 
 ## Como usar
 ### 1- Treinando os modelos novamente
-Caso queira treinar os modelos novamente, baixe o dataset https://drive.google.com/drive/folders/1T_TX3vn9fdmRd6F6BXfapYzpyzKiC5qL?usp=drive_link  e coloque-o no seu Drive. Execute o arquivo Treinamento-dos-Modelos.ipynb no colab. 
+Caso queira treinar os modelos novamente, baixe o dataset https://drive.google.com/drive/folders/1T_TX3vn9fdmRd6F6BXfapYzpyzKiC5qL?usp=drive_link  e coloque-o no seu Drive. Execute o arquivo Treinamentos.ipynb no colab. 
 
-Ao fim da execução, dois arquivos contendo os modelos treinados serão criados no seu Drive. Agora execute o Bot-Telegram.ipynb no colab. 
+Ao fim da execução, dois arquivos contendo os modelos treinados serão criados no seu Drive. Agora execute o Bot-Classificador.ipynb no colab. 
 
 Escolha qual dos modelos você deseja usar no Bot, alterando a variável save_path no primeiro bloco de código.
 
