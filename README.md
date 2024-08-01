@@ -32,7 +32,7 @@ Link para o modelo (AlexNet): https://drive.google.com/file/d/1fvvYQFCYM13s9YUbb
 
 Link para o modelo (GoogLeNet): https://drive.google.com/file/d/1fw4q7orX4TQZ54YtNrSTiGngtEuxil5L/view?usp=sharing
 
-Baixe os arquivos e coloque-os no seu Google Drive. Execute o arquivo Bot-Telegram.ipynb no colab. 
+Baixe os arquivos e coloque-os no seu Google Drive. Execute o arquivo Bot-Classificador.ipynb no colab. 
 
 Escolha qual dos modelos você deseja usar no Bot, alterando a variável caminho_do_modelo no primeiro bloco de código.
 
